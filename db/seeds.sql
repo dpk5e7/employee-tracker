@@ -4,12 +4,12 @@ VALUES ("Force Users"),
        ("Gangsters");
 
 INSERT INTO role (title, salary, department_id)
-VALUES ("Jedi", 100, 1),
-       ("Sith", 99, 1),
-       ("Commander", 91, 2),
-       ("Captain", 90, 2),
-       ("Bounty Hunters", 81, 3),
-       ("Smugglers", 80, 3);
+VALUES ("Jedi", 100000, 1),
+       ("Sith", 99000, 1),
+       ("Commander", 91000, 2),
+       ("Captain", 90000, 2),
+       ("Bounty Hunters", 81000, 3),
+       ("Smugglers", 80000, 3);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Ben", "Kenobi", 1, null),
